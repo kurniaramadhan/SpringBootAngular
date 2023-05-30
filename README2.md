@@ -1,4 +1,4 @@
-#SpringBootAngular
+# SpringBootAngular
 # Linux - Install Development Tools
 
 In this guide, we will install the following development tools

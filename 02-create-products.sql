@@ -43,34 +43,34 @@ AUTO_INCREMENT = 1;
 -- Add sample data
 -- -----------------------------------------------------
 
-INSERT INTO product_category(category_name) VALUES ('BOOKS');
+INSERT INTO product_category(category_name) VALUES ('GROCERIES');
 
 INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
 unit_price, category_id, date_created)
-VALUES ('BOOK-TECH-1000', 'JavaScript - The Fun Parts', 'Learn JavaScript',
+VALUES ('PO-1000', 'Jeruk Navel Impor', 'Jeruk sunkist dengan ukuran pusar yang besar. Rasanya manis asam segar. Cocok dikonsumsi sebagai camilan atau pencuci mulut. Produk ini dapat digunakan sebagai menu MPASI.',
 'assets/images/products/placeholder.png'
 ,1,100,19.99,1, NOW());
 
 INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
 unit_price, category_id, date_created)
-VALUES ('BOOK-TECH-1001', 'Spring Framework Tutorial', 'Learn Spring',
+VALUES ('PO-1001', 'Daging Rendang Fadagi', 'Daging sapi lokal beku pilihan yang cocok untuk rendang. Teksturnya tidak mudah hancur, sehingga sangat cocok untuk proses memasak yang lama. Diproses halal. Daging dipastikan aman dan berkualitas. Berat produk dapat berkurang 10% dari berat beku.',
 'assets/images/products/placeholder.png'
 ,1,100,29.99,1, NOW());
 
 INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
 unit_price, category_id, date_created)
-VALUES ('BOOK-TECH-1002', 'Kubernetes - Deploying Containers', 'Learn Kubernetes',
+VALUES ('PO-1002', 'Pisang Uli', 'Pisang konvensional akan matang sempurna dalam 2-3 hari. Pisang uli adalah jenis pisang yang paling manis. Daging buahnya lembut, empuk, dan agak lembek. Pisang ini bisa diolah menjadi camilan seperti sale atau keripik pisang.',
 'assets/images/products/placeholder.png'
 ,1,100,24.99,1, NOW());
 
 INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
 unit_price, category_id, date_created)
-VALUES ('BOOK-TECH-1003', 'Internet of Things (IoT) - Getting Started', 'Learn IoT',
+VALUES ('PO-1003', 'Jambu Biji Merah', 'Jambu biji memiliki kulit tipis yang bisa dimakan. Rasanya manis saat matang dan memiliki aroma khas. Tekstur buahnya renyah, agak keras. Sehingga nikmat dikonsumsi sebagai camilan sehat.',
 'assets/images/products/placeholder.png'
 ,1,100,29.99,1, NOW());
 
 INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
 unit_price, category_id, date_created)
-VALUES ('BOOK-TECH-1004', 'The Go Programming Language: A to Z', 'Learn Go',
+VALUES ('PO-1004', 'Semangka Merah Baby', 'Semangka merah memiliki daging buah berwarna merah. Rasa manisnya terasa halus dan ringan. Semangka memiliki kandungan air yang tinggi sehingga terasa segar saat dikonsumsi.',
 'assets/images/products/placeholder.png'
 ,1,100,24.99,1, NOW());

@@ -34,7 +34,7 @@
                             </div>
                         </div>
                     </div>
-                    <div formGroupName="billingAddress">
+                    <div formGroupName="shippingAddress">
                         <h4>Shipping Address</h4>
                         <div class="row">
                             <div class="col-lg-4">
@@ -80,11 +80,10 @@
                         </div>
                     </div>
                     <div class="checkout__input__checkbox">
-                        <label for="acc">
-                            Billing Address same as with Billing Address?
+                        <label>
+                            Billing Address same as with Shipping Address?
                             <input type="checkbox" 
-                                (change)="copyToBillingAddress($event)" 
-                                id="acc">
+                                (change)="copyToBillingAddress($event)">
                             <span class="checkmark"></span>
                         </label>
                     </div>

@@ -1,39 +1,39 @@
 {
    "customer":{
-      "firstName":"afasa",
-      "lastName":"afasa",
-      "email":"afasa@test.com"
+      "firstName":"Will",
+      "lastName":"Smith",
+      "email":"willsmith@test.com"
    },
    "shippingAddress":{
-      "street":"afasa",
-      "city":"afasa",
-      "state":"Alberta",
-      "country":"Canada",
-      "zipCode":"afasa"
+      "country":"Indonesia",
+      "state":"Jawa Barat",
+      "city":"Bandung",
+      "zipCode":"12345",
+      "street":"Jl.Sunda No.1"
    },
    "billingAddress":{
-      "street":"fsfsf",
-      "city":"sfdsf",
-      "state":"Acre",
-      "country":"Brazil",
-      "zipCode":"19111"
+      "country":"Indonesia",
+      "state":"Jawa Barat",
+      "city":"Bandung",
+      "zipCode":"12345",
+      "street":"Jl.Sunda No.1"
    },
    "order":{
-      "totalPrice":36.98,
+      "totalPrice":49.98,
       "totalQuantity":2
    },
    "orderItems":[
       {
-         "imageUrl":"assets/images/products/coffeemugs/coffeemug-luv2code-1000.png",
+         "imageUrl":"assets/images/products/product1.jpg",
          "quantity":1,
-         "unitPrice":18.99,
-         "productId":26
+         "unitPrice":19.99,
+         "productId":1
       },
       {
-         "imageUrl":"assets/images/products/mousepads/mousepad-luv2code-1000.png",
+         "imageUrl":"assets/images/products/product2.jpg",
          "quantity":1,
-         "unitPrice":17.99,
-         "productId":51
+         "unitPrice":29.99,
+         "productId":2
       }
    ]
 }

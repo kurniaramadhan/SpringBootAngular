@@ -1,0 +1,39 @@
+{
+   "customer":{
+      "firstName":"Will",
+      "lastName":"Smith",
+      "email":"willsmith@gmail.com"
+   },
+   "shippingAddress":{
+      "country":"Indonesia",
+      "state":"Jawa Barat",
+      "city":"Bandung",
+      "zipCode":"12345",
+      "street":"Jl.Sunda No.1"
+   },
+   "billingAddress":{
+      "country":"Indonesia",
+      "state":"Jawa Barat",
+      "city":"Bandung",
+      "zipCode":"12345",
+      "street":"Jl.Sunda No.1"
+   },
+   "order":{
+      "totalPrice":49.98,
+      "totalQuantity":2
+   },
+   "orderItems":[
+      {
+         "imageUrl":"assets/images/products/product1.jpg",
+         "quantity":1,
+         "unitPrice":19.99,
+         "productId":1
+      },
+      {
+         "imageUrl":"assets/images/products/product2.jpg",
+         "quantity":1,
+         "unitPrice":29.99,
+         "productId":2
+      }
+   ]
+}

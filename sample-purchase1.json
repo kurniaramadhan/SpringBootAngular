@@ -2,7 +2,7 @@
    "customer":{
       "firstName":"Will",
       "lastName":"Smith",
-      "email":"willsmith@gmail.com"
+      "email":"willsmith@test.com"
    },
    "shippingAddress":{
       "country":"Indonesia",
